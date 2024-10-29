@@ -12,6 +12,10 @@ export const signin = createAsyncThunk("signin", async (credentials) => {
     }
 });
 
+const samplefunction = () => {
+        console.log('helo worlsadasjl')
+}
+
 const signinSlice = ({
     name:"signin",
     initialState:{
